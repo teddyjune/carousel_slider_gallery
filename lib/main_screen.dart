@@ -23,6 +23,7 @@ class MainScreen extends StatelessWidget {
           return CarouselSlider(
             options: CarouselOptions(
               height: height,
+              autoPlay: true,
               viewportFraction: 1.0,
               enlargeCenterPage: false,
               // autoPlay: false,
